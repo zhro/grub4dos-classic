@@ -298,7 +298,7 @@ VARIABLE(addr_system_functions)
 VARIABLE(addr_system_variables)
 	.long	ABS(EXT_C(system_variables))
 VARIABLE(menu_cfg) /*char menu_cfg[]*/
-	.long 0x1110
+	.long 0x20 // 0x0 (nothing) 0x20 (space) 0x1110 (arrow)
 VARIABLE(iso_types)/*char iso_types*/
 	.byte 0xff
   .byte 0																							//0x830D  未使用
