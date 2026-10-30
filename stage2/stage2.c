@@ -580,8 +580,8 @@ hotkey_end:
 		if(splashimage_loaded & 2)
 			current_color_64bit = 0;
 		else
-			if (current_term->setcolorstate)
-				current_term->setcolorstate (COLOR_STATE_NORMAL);
+			// if (current_term->setcolorstate)
+			// 	current_term->setcolorstate (COLOR_STATE_NORMAL);
 		ret = grub_putchar (' ', ret);
 		current_color_64bit = clo64_tmp;
 //		if ((long)ret < 0)
