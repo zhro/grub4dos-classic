@@ -6257,7 +6257,7 @@ font_func (char *arg, int flags)
   errnum = 0;
   if (arg == NULL || *arg == '\0')
   {
-		if (font_h != 16)
+		// if (font_h != 16)
 			return 0;
 		valid_lines--;	// let valid_lines = -1, a non-zero value for TRUE.
 		goto build_default_VGA_font;
