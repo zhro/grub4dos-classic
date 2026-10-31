@@ -600,7 +600,7 @@ init_page (void)
 	}
 
   grub_sprintf ((char *)tmp_buf,
-		" GRUB4DOS " GRUB4DOS_VERSION ", Mem: %dK/%dM/%ldM, End: %X",
+		" GRUB4DOS CLASSIC " GRUB4DOS_VERSION ", Mem: %dK/%dM/%ldM, End: %X",
 		(unsigned long)saved_mem_lower,
 		(unsigned long)(saved_mem_upper >> 10),
 		(unsigned long long)(saved_mem_higher >> 10),
