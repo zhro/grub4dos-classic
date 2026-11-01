@@ -2,7 +2,7 @@
 
 ![GitHub](https://img.shields.io/github/license/zhro/grub4dos-classic?style=flat-square) ![GitHub Release Date](https://img.shields.io/github/release-date/zhro/grub4dos-classic?style=flat-square) ![GitHub all releases](https://img.shields.io/github/downloads/zhro/grub4dos-classic/total?style=flat-square)
 
-This project is derived from original work provided by [chenall](https://github.com/chenall), available in the [grub4dos repository](https://github.com/chenall/grub4dos). The source code has been modified and redistributed in accordance with the terms of the GNU General Public License, version 2.0, with appropriate attribution.
+This project is derived from original work by [chenall](https://github.com/chenall), available in the [grub4dos repository](https://github.com/chenall/grub4dos). The source code has been modified and redistributed in accordance with the terms of the GNU General Public License, version 2.0, with appropriate attribution.
 
 ## Project Summary
 
